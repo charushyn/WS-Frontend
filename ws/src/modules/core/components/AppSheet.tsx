@@ -12,6 +12,10 @@ import {
   MousePointer2,
 } from "lucide-react";
 
+import Image from "next/image";
+
+import logoSVG from "@/../public/logo.svg";
+
 import {
   Sheet,
   SheetContent,
@@ -70,7 +74,15 @@ export function AppSheet({
     <Sheet open={open} onOpenChange={() => toggleFn()}>
       <SheetContent className="">
         <SheetHeader className="mb-6">
-          <SheetTitle>Все Всім</SheetTitle>
+          <SheetTitle>
+            <Image
+              src={logoSVG.src}
+              width={0}
+              height={0}
+              className="w-fit h-fit"
+              alt="10"
+            ></Image>
+          </SheetTitle>
           <Description className="">Навігація магазину</Description>
         </SheetHeader>
         <div className="flex flex-col gap-2">

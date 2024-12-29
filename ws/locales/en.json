@@ -1,7 +1,175 @@
 {
-  "welcome": "Welcome to my app!",
-
-  "home": "Home",
-
-  "about": "About"
+  "header": {
+    "button": {
+      "text": "Ask a question",
+      "href": "#contact"
+    },
+    "nav": [
+      {
+        "text": "Services",
+        "href": "#services"
+      },
+      {
+        "text": "Portfolio",
+        "href": "#portfolio"
+      },
+      {
+        "text": "About us",
+        "href": "#about"
+      },
+      {
+        "text": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
+    ]
+  },
+  "greeting": {
+    "h3": "We create websites that inspire and sell",
+    "h4": "Modern websites that sell – with full support and advertising.",
+    "links": [
+      {
+        "text": "Order website creation",
+        "href": "#contact"
+      },
+      {
+        "text": "Learn more",
+        "href": "#portfolio"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Website creation, advertising services, and SEO",
+    "items": [
+      {
+        "icon": "web",
+        "title": "Landing page development",
+        "description": "We create modern and functional websites tailored to your needs."
+      },
+      {
+        "icon": "globe",
+        "title": "Advanced websites",
+        "description": "Online stores, CRM systems, and other solutions for your business."
+      },
+      {
+        "icon": "box",
+        "title": "Technical support",
+        "description": "Ongoing assistance in maintaining and updating websites."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Examples of developed websites",
+    "items": [
+      {
+        "images": [
+          "https://volynlegion.com.ua/_next/image?url=%2Fphotos%2FYouhymuk.png&w=1920&q=75"
+        ],
+        "id": 0,
+        "title": "Web memorial",
+        "url": "https://volynlegion.com.ua/",
+        "warnings": [],
+        "description": "“Heavenly Legion of Volyn” is a memorial research project dedicated to honoring the memory of Volyn residents who died in the war with Russia."
+      },
+      {
+        "images": ["https://i.ibb.co/HXQPYfy/2024-12-29-01-33-39.png"],
+        "id": 1,
+        "title": "E-commerce for small business",
+        "warnings": [],
+        "url": "https://vsevsim.com.ua/",
+        "description": "“Everything for Everyone” is a Ukrainian company with extensive experience in trade, based in Lutsk."
+      },
+      {
+        "images": ["https://i.ibb.co/gWjGYYV/2024-12-29-01-43-20.png"],
+        "id": 2,
+        "title": "Website for an insurance company",
+        "warnings": [
+          "Link unavailable, the company has suspended hosting payments."
+        ],
+        "url": "",
+        "description": "CD Finance is a Polish company specializing in financial services, including credit brokerage."
+      }
+    ],
+    "button": {
+      "text": "Learn more",
+      "href": "#portfolio"
+    }
+  },
+  "why-we": {
+    "subtitle": "Reasons to choose us",
+    "title": "Why choose us",
+    "items": [
+      {
+        "icon": "head-checkmark",
+        "title": "Expertise",
+        "description": "We have extensive experience in website development."
+      },
+      {
+        "icon": "squers",
+        "title": "Custom solutions",
+        "description": "We tailor projects to meet individual client needs."
+      },
+      {
+        "icon": "shield",
+        "title": "Security",
+        "description": "We ensure the security of your website and user data."
+      }
+    ],
+    "button": {
+      "text": "More about us",
+      "href": "#about"
+    }
+  },
+  "about": {
+    "title": "Professionals in creating modern websites",
+    "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KFB9HKYCejBj~BLAGFUr43ia059uedMuUBZUXuo~cYszc4uStyYZuofJosMYewa2bAiJ8J3Ag1~F1Z~GLzSTamP1XeMfKhaf0Unh4HaBA3GNZRBGOm64TgoC4inRATRaZeNpy2T1H9ADrN6tbGsawm2qlaKTXSexZY9uXBkgt0aQGOX4nApXTtUDuIGjdC1vDEFVtqJX0eP-xbgaCOP~9BdqQAP4H7t4JMAhPOTKmpXFXQvH6GTtooxlpLCn02HoU19cDU7F3BOXNtPrkkSfOkIZV98sQ2E6mOAHQ4vD6TMUu1lyp4LxpDITuAZKfWOjb42LMB6MYXKl8dsyvs6xBw__",
+    "subtitle": "About us",
+    "description": "We are a team of creative professionals combining a passion for design with modern technologies. We offer comprehensive services from design to implementation and technical support."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is a web studio, and what services does it offer?",
+        "answer": "A web studio is a company specializing in designing and developing websites tailored to individual client needs."
+      },
+      {
+        "question": "How to choose the right web studio for my project?",
+        "answer": "Choosing the right studio depends on its experience, client reviews, portfolio, and pricing."
+      },
+      {
+        "question": "What is the process of website development in your studio?",
+        "answer": "The process includes analysis, design, implementation, and testing."
+      },
+      {
+        "question": "How long does it take to create a website?",
+        "answer": "The timeline depends on the complexity of the project, ranging from 1 to 8 weeks."
+      },
+      {
+        "question": "What technologies do you use for website development?",
+        "answer": "We use modern technologies such as HTML, CSS, MERN (MongoDB, Express, React, Node), Next.js, and others."
+      }
+    ]
+  },
+  "footer": {
+    "contact-info": {
+      "company": "FUSION WALL",
+      "email": "kontakt@fusionwall.pl",
+      "phone": "+48 123 456 789"
+    },
+    "social-links": [
+      {
+        "platform": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "platform": "LinkedIn",
+        "href": "https://linkedin.com"
+      }
+    ]
+  }
 }

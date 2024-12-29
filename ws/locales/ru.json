@@ -1,0 +1,173 @@
+{
+  "header": {
+    "button": {
+      "text": "Задать вопрос",
+      "href": "#contact"
+    },
+    "nav": [
+      {
+        "text": "Услуги",
+        "href": "#services"
+      },
+      {
+        "text": "Портфолио",
+        "href": "#portfolio"
+      },
+      {
+        "text": "О нас",
+        "href": "#about"
+      },
+      {
+        "text": "Частые вопросы",
+        "href": "#faq"
+      },
+      {
+        "text": "Контакт",
+        "href": "#contact"
+      }
+    ]
+  },
+  "greeting": {
+    "h3": "Мы создаем сайты, которые вдохновляют и продают",
+    "h4": "Современные сайты, которые продают – с полной поддержкой и рекламой.",
+    "links": [
+      {
+        "text": "Заказать создание сайта",
+        "href": "#contact"
+      },
+      {
+        "text": "Узнать больше",
+        "href": "#portfolio"
+      }
+    ]
+  },
+  "services": {
+    "title": "Наши услуги",
+    "description": "Создание сайтов, рекламные услуги и SEO",
+    "items": [
+      {
+        "icon": "web",
+        "title": "Разработка целевых страниц",
+        "description": "Мы создаем современные и функциональные сайты, адаптированные к вашим потребностям."
+      },
+      {
+        "icon": "globe",
+        "title": "Расширенные сайты",
+        "description": "Интернет-магазины, CRM-системы и другие решения для вашего бизнеса."
+      },
+      {
+        "icon": "box",
+        "title": "Техническая поддержка",
+        "description": "Постоянная помощь в поддержке и обновлении сайтов."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Примеры разработанных сайтов",
+    "items": [
+      {
+        "images": [
+          "https://volynlegion.com.ua/_next/image?url=%2Fphotos%2FYouhymuk.png&w=1920&q=75"
+        ],
+        "id": 0,
+        "title": "Веб-мемориал",
+        "url": "https://volynlegion.com.ua/",
+        "warnings": [],
+        "description": "«Небесный легион Волыни» — это мемориальный исследовательский проект, посвященный увековечению памяти жителей Волыни, погибших в войне с Россией."
+      },
+      {
+        "images": ["https://i.ibb.co/HXQPYfy/2024-12-29-01-33-39.png"],
+        "id": 1,
+        "title": "Интернет-магазин для малого бизнеса",
+        "warnings": [],
+        "url": "https://vsevsim.com.ua/",
+        "description": "«Все для всех» — украинская компания с многолетним опытом в торговле, расположенная в городе Луцк."
+      },
+      {
+        "images": ["https://i.ibb.co/gWjGYYV/2024-12-29-01-43-20.png"],
+        "id": 2,
+        "title": "Сайт для страховой компании",
+        "warnings": ["Ссылка недоступна, компания прекратила оплату хостинга."],
+        "url": "",
+        "description": "CD Finance — польская компания, специализирующаяся на предоставлении финансовых услуг, включая кредитное посредничество."
+      }
+    ],
+    "button": {
+      "text": "Узнать больше",
+      "href": "#portfolio"
+    }
+  },
+  "why-we": {
+    "subtitle": "Причины выбрать нас",
+    "title": "Почему выбирают нас",
+    "items": [
+      {
+        "icon": "head-checkmark",
+        "title": "Экспертиза",
+        "description": "Мы имеем многолетний опыт в создании сайтов."
+      },
+      {
+        "icon": "squers",
+        "title": "Индивидуальные решения",
+        "description": "Мы адаптируем проекты к индивидуальным потребностям клиентов."
+      },
+      {
+        "icon": "shield",
+        "title": "Безопасность",
+        "description": "Мы обеспечиваем безопасность вашего сайта и данных пользователей."
+      }
+    ],
+    "button": {
+      "text": "Больше о нас",
+      "href": "#about"
+    }
+  },
+  "about": {
+    "title": "Профессионалы в создании современных сайтов",
+    "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KFB9HKYCejBj~BLAGFUr43ia059uedMuUBZUXuo~cYszc4uStyYZuofJosMYewa2bAiJ8J3Ag1~F1Z~GLzSTamP1XeMfKhaf0Unh4HaBA3GNZRBGOm64TgoC4inRATRaZeNpy2T1H9ADrN6tbGsawm2qlaKTXSexZY9uXBkgt0aQGOX4nApXTtUDuIGjdC1vDEFVtqJX0eP-xbgaCOP~9BdqQAP4H7t4JMAhPOTKmpXFXQvH6GTtooxlpLCn02HoU19cDU7F3BOXNtPrkkSfOkIZV98sQ2E6mOAHQ4vD6TMUu1lyp4LxpDITuAZKfWOjb42LMB6MYXKl8dsyvs6xBw__",
+    "subtitle": "О нас",
+    "description": "Мы — команда креативных профессионалов, которые объединяют страсть к дизайну с современными технологиями. Мы предлагаем комплексные услуги от проектирования до внедрения и технической поддержки."
+  },
+  "faq": {
+    "title": "Часто задаваемые вопросы",
+    "items": [
+      {
+        "question": "Что такое веб-студия и какие услуги она предоставляет?",
+        "answer": "Веб-студия — это компания, специализирующаяся на проектировании и создании сайтов, адаптированных к индивидуальным потребностям клиентов."
+      },
+      {
+        "question": "Как выбрать веб-студию для моего проекта?",
+        "answer": "Выбор подходящей студии зависит от её опыта, отзывов клиентов, портфолио и цен."
+      },
+      {
+        "question": "Каков процесс создания сайта в вашей студии?",
+        "answer": "Процесс включает анализ, проектирование, внедрение и тестирование."
+      },
+      {
+        "question": "Сколько времени занимает создание сайта?",
+        "answer": "Время выполнения зависит от сложности проекта и занимает от 1 до 8 недель."
+      },
+      {
+        "question": "Какие технологии вы используете для создания сайтов?",
+        "answer": "Мы используем современные технологии, такие как HTML, CSS, MERN (MongoDB, Express, React, Node), Next.js и другие."
+      }
+    ]
+  },
+  "footer": {
+    "contact-info": {
+      "company": "FUSION WALL",
+      "email": "kontakt@fusionwall.pl",
+      "phone": "+48 123 456 789"
+    },
+    "social-links": [
+      {
+        "platform": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "platform": "LinkedIn",
+        "href": "https://linkedin.com"
+      }
+    ]
+  }
+}

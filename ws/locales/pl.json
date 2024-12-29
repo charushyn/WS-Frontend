@@ -1,0 +1,173 @@
+{
+  "header": {
+    "button": {
+      "text": "Zadaj pytanie",
+      "href": "#contact"
+    },
+    "nav": [
+      {
+        "text": "Usługi",
+        "href": "#services"
+      },
+      {
+        "text": "Portfolio",
+        "href": "#portfolio"
+      },
+      {
+        "text": "O nas",
+        "href": "#about"
+      },
+      {
+        "text": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "text": "Kontakt",
+        "href": "#contact"
+      }
+    ]
+  },
+  "greeting": {
+    "h3": "Tworzymy strony, które inspirują i sprzedają",
+    "h4": "Nowoczesne strony, które sprzedają – z pełnym wsparciem i reklamą.",
+    "links": [
+      {
+        "text": "Zamów wykonanie strony internetowej",
+        "href": "#contact"
+      },
+      {
+        "text": "Dowiedz się więcej",
+        "href": "#portfolio"
+      }
+    ]
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "description": "Tworzenie stron internetowych, usługi reklamowe i SEO",
+    "items": [
+      {
+        "icon": "web",
+        "title": "Tworzenie stron docelowych",
+        "description": "Tworzymy nowoczesne i funkcjonalne strony internetowe dostosowane do Twoich potrzeb."
+      },
+      {
+        "icon": "globe",
+        "title": "Rozbudowane strony internetowe",
+        "description": "Sklepy internetowe, systemy CRM i inne rozwiązania dla Twojej firmy."
+      },
+      {
+        "icon": "box",
+        "title": "Wsparcie techniczne",
+        "description": "Stała pomoc w utrzymaniu i aktualizacji stron internetowych."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Przykłady opracowanych stron",
+    "items": [
+      {
+        "images": [
+          "https://volynlegion.com.ua/_next/image?url=%2Fphotos%2FYouhymuk.png&w=1920&q=75"
+        ],
+        "id": 0,
+        "title": "Strona pamiątkowa",
+        "url": "https://volynlegion.com.ua/",
+        "warnings": [],
+        "description": "„Niebiański Legion Wołynia” to projekt badawczo-pamiątkowy upamiętniający mieszkańców Wołynia poległych w wojnie z Rosją."
+      },
+      {
+        "images": ["https://i.ibb.co/HXQPYfy/2024-12-29-01-33-39.png"],
+        "id": 1,
+        "title": "Sklep internetowy dla małej firmy",
+        "warnings": [],
+        "url": "https://vsevsim.com.ua/",
+        "description": "„Wszystko dla Wszystkich” – ukraińska firma z wieloletnim doświadczeniem w handlu, z siedzibą w Łucku."
+      },
+      {
+        "images": ["https://i.ibb.co/gWjGYYV/2024-12-29-01-43-20.png"],
+        "id": 2,
+        "title": "Strona dla firmy ubezpieczeniowej",
+        "warnings": ["Link niedostępny, firma przerwała opłatę za hosting."],
+        "url": "",
+        "description": "CD Finance – polska firma specjalizująca się w usługach finansowych, w tym w pośrednictwie kredytowym."
+      }
+    ],
+    "button": {
+      "text": "Dowiedz się więcej",
+      "href": "#portfolio"
+    }
+  },
+  "why-we": {
+    "subtitle": "Dlaczego warto wybrać nas",
+    "title": "Dlaczego my",
+    "items": [
+      {
+        "icon": "head-checkmark",
+        "title": "Ekspertyza",
+        "description": "Posiadamy wieloletnie doświadczenie w tworzeniu stron internetowych."
+      },
+      {
+        "icon": "squers",
+        "title": "Indywidualne rozwiązania",
+        "description": "Dostosowujemy projekty do indywidualnych potrzeb klientów."
+      },
+      {
+        "icon": "shield",
+        "title": "Bezpieczeństwo",
+        "description": "Zapewniamy bezpieczeństwo Twojej strony i danych użytkowników."
+      }
+    ],
+    "button": {
+      "text": "Więcej o nas",
+      "href": "#about"
+    }
+  },
+  "about": {
+    "title": "Profesjonaliści w tworzeniu nowoczesnych stron internetowych",
+    "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KFB9HKYCejBj~BLAGFUr43ia059uedMuUBZUXuo~cYszc4uStyYZuofJosMYewa2bAiJ8J3Ag1~F1Z~GLzSTamP1XeMfKhaf0Unh4HaBA3GNZRBGOm64TgoC4inRATRaZeNpy2T1H9ADrN6tbGsawm2qlaKTXSexZY9uXBkgt0aQGOX4nApXTtUDuIGjdC1vDEFVtqJX0eP-xbgaCOP~9BdqQAP4H7t4JMAhPOTKmpXFXQvH6GTtooxlpLCn02HoU19cDU7F3BOXNtPrkkSfOkIZV98sQ2E6mOAHQ4vD6TMUu1lyp4LxpDITuAZKfWOjb42LMB6MYXKl8dsyvs6xBw__",
+    "subtitle": "O nas",
+    "description": "Jesteśmy zespołem kreatywnych profesjonalistów, którzy łączą pasję do designu z nowoczesnymi technologiami. Oferujemy kompleksowe usługi od projektowania po wdrożenie i wsparcie techniczne."
+  },
+  "faq": {
+    "title": "Najczęściej zadawane pytania",
+    "items": [
+      {
+        "question": "Czym jest web studio i jakie usługi oferuje?",
+        "answer": "Web studio to firma, która specjalizuje się w projektowaniu i tworzeniu stron internetowych dostosowanych do indywidualnych potrzeb klientów."
+      },
+      {
+        "question": "Jak wybrać odpowiednie web studio dla mojego projektu?",
+        "answer": "Wybór odpowiedniego studia zależy od jego doświadczenia, opinii klientów i portfolio."
+      },
+      {
+        "question": "Jaki jest proces tworzenia strony internetowej w waszym studiu?",
+        "answer": "Proces obejmuje analizę, projektowanie, wdrożenie oraz testowanie."
+      },
+      {
+        "question": "Ile czasu zajmuje stworzenie strony internetowej?",
+        "answer": "Czas realizacji zależy od złożoności projektu i wynosi od 1 do 8 tygodni."
+      },
+      {
+        "question": "Jakie technologie wykorzystujecie do tworzenia stron internetowych?",
+        "answer": "Używamy nowoczesnych technologii, takich jak HTML, CSS, MERN (MongoDB, Express, React, Node), Next.js i innych."
+      }
+    ]
+  },
+  "footer": {
+    "contact-info": {
+      "company": "FUSION WALL",
+      "email": "kontakt@fusionwall.pl",
+      "phone": "+48 123 456 789"
+    },
+    "social-links": [
+      {
+        "platform": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "platform": "LinkedIn",
+        "href": "https://linkedin.com"
+      }
+    ]
+  }
+}
