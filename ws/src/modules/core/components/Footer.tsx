@@ -1,3 +1,3 @@
 export default function Footer() {
-  return <div className="min-h-svh">footer</div>;
+  return <div className="">footer</div>;
 }

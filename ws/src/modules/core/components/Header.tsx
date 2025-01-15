@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed w-full transition-all duration-500 px-5 py-6 bg-white/5 backdrop-blur-xl ${
+      className={`fixed z-[20] w-full transition-all duration-500 px-5 py-6 bg-white/5 backdrop-blur-xl ${
         scrollDirection === "down" ? "-top-[80px]" : "top-0"
       }`}
     >
@@ -23,7 +23,7 @@ export default function Header() {
           src={logoSVG.src}
           width={0}
           height={0}
-          className="w-fit h-fit"
+          className="w-1/3"
           alt="10"
         ></Image>
         <Image

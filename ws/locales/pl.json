@@ -43,7 +43,13 @@
   },
   "services": {
     "title": "Nasze usługi",
-    "description": "Tworzenie stron internetowych, usługi reklamowe i SEO",
+    "description": [
+      { "text": "Tworzenie ", "className": "#5080AF" },
+      { "text": "stron internetowych", "className": "" },
+      { "text": ",", "className": "" },
+      { "text": " usługi", "className": "#5080AF" },
+      { "text": " reklamowe i SEO", "className": "" }
+    ],
     "items": [
       {
         "icon": "web",

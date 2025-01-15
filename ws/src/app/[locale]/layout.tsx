@@ -9,7 +9,7 @@ export default async function Layout({
   params,
   children,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: "pl" | "bl" | "ua" | "en" | "ru" }>;
   children: React.ReactNode;
 }) {
   const { locale } = await params;

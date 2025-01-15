@@ -7,13 +7,11 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/modules/**/components/*.{js,ts,jsx,tsx,mdx}",
-    "./src/modules/core/ui/*.{js,ts,jsx,tsx,mdx}",
+    "./src/modules/**/ui/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        main: "url('@/../public/main-bg.png')",
-      },
+      backgroundImage: {},
       screens: {
         "m-s": "319px", //568px
         "m-m": "374px", //667px
