@@ -69,7 +69,11 @@
     ]
   },
   "portfolio": {
-    "title": "Przykłady opracowanych stron",
+    "h4": "Teczka",
+    "h3": [
+      { "text": "Przykłady ", "className": "#5080AF" },
+      { "text": "witryn opracowanych", "className": "" }
+    ],
     "items": [
       {
         "images": [
@@ -93,7 +97,10 @@
         "images": ["https://i.ibb.co/gWjGYYV/2024-12-29-01-43-20.png"],
         "id": 2,
         "title": "Strona dla firmy ubezpieczeniowej",
-        "warnings": ["Link niedostępny, firma przerwała opłatę za hosting."],
+        "warnings": {
+          "text": "Ostrzeżenie:",
+          "items": ["Link niedostępny, firma przerwała opłatę za hosting."]
+        },
         "url": "",
         "description": "CD Finance – polska firma specjalizująca się w usługach finansowych, w tym w pośrednictwie kredytowym."
       }
@@ -103,9 +110,26 @@
       "href": "#portfolio"
     }
   },
-  "why-we": {
-    "subtitle": "Dlaczego warto wybrać nas",
-    "title": "Dlaczego my",
+  "banner": {
+    "title": "Projektujemy strony internetowe, z których możesz być dumny.",
+    "subtitle": "Twoja witryna to Twoja wizytówka w sieci.",
+    "button": {
+      "text": "Skontaktuj się z nami",
+      "href": "#contact"
+    }
+  },
+  "whywe": {
+    "subtitle": "Powody, dla których warto współpracować",
+    "title": [
+      {
+        "text": "Dlaczego warto wybrać ",
+        "className": ""
+      },
+      {
+        "text": "nas",
+        "className": "#5080AF"
+      }
+    ],
     "items": [
       {
         "icon": "head-checkmark",
@@ -129,13 +153,24 @@
     }
   },
   "about": {
-    "title": "Profesjonaliści w tworzeniu nowoczesnych stron internetowych",
-    "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KFB9HKYCejBj~BLAGFUr43ia059uedMuUBZUXuo~cYszc4uStyYZuofJosMYewa2bAiJ8J3Ag1~F1Z~GLzSTamP1XeMfKhaf0Unh4HaBA3GNZRBGOm64TgoC4inRATRaZeNpy2T1H9ADrN6tbGsawm2qlaKTXSexZY9uXBkgt0aQGOX4nApXTtUDuIGjdC1vDEFVtqJX0eP-xbgaCOP~9BdqQAP4H7t4JMAhPOTKmpXFXQvH6GTtooxlpLCn02HoU19cDU7F3BOXNtPrkkSfOkIZV98sQ2E6mOAHQ4vD6TMUu1lyp4LxpDITuAZKfWOjb42LMB6MYXKl8dsyvs6xBw__",
+    "title": [
+      { "text": "Profesjonaliści ", "className": "#5080AF" },
+      {
+        "text": "w tworzeniu nowoczesnych stron internetowych",
+        "className": ""
+      }
+    ],
+    "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l2xC5o5HbnBniXyXEjlOE~eD~y8CGGS23XMoyNtLVdhbnz~DeMGcLSBlYNV9iDEDZMAEBnzwzSmPkSoSRIlC6b9JhUDVFzw59BVssJ6coTdtnILmPEGgUY0egMhz9e3XEj4-9IOmCZlRFJ0MQKg3Xavoo8rapmWUdhAftS2bG5ft5Bu4R0lHyOoVukV3iSEbmy3G8GIm4l~bcMjZFXchqugqiW8A8ehd1eJ8-KMsbtzUEzZeVEfHY-l1ye9hyeSU-9AL2s-RqZA1gwNxMIRKKicC3Z5d0G1AryUu17wkAXIGPDFj0ezWiGxIrQIwuoZDKzBcPLYNJEQL6emZ-AADfQ__",
     "subtitle": "O nas",
     "description": "Jesteśmy zespołem kreatywnych profesjonalistów, którzy łączą pasję do designu z nowoczesnymi technologiami. Oferujemy kompleksowe usługi od projektowania po wdrożenie i wsparcie techniczne."
   },
   "faq": {
-    "title": "Najczęściej zadawane pytania",
+    "subtitle": "FAQ",
+    "title": [
+      { "text": "Najczęściej zadawane ", "className": "" },
+      { "text": "pytania", "className": "#5080AF" }
+    ],
+    "subsubtitle": "Być może zainteresuje Cię czytanie",
     "items": [
       {
         "question": "Czym jest web studio i jakie usługi oferuje?",
@@ -159,19 +194,54 @@
       }
     ]
   },
-  "footer": {
-    "contact-info": {
-      "company": "FUSION WALL",
-      "email": "kontakt@fusionwall.pl",
-      "phone": "+48 123 456 789"
+  "contact": {
+    "title": "Formularz kontaktowy",
+    "name": {
+      "label": "Imię",
+      "placeholder": "Tomasz",
+      "description": "",
+      "required": "1"
     },
-    "social-links": [
+    "phone": {
+      "label": "Telefon",
+      "placeholder": "+48 000 000 000",
+      "description": "",
+      "required": "1"
+    },
+    "message": {
+      "label": "Wiadomość dodatkowa",
+      "placeholder": "Napisz coś tutaj...",
+      "description": "",
+      "required": ""
+    },
+    "errors": {
+      "nameToShort": "Imię jest zakrótkie",
+      "nameToLong": "Imię jest zadługie",
+      "phone": "Numer telefonu ma nieprawidłowy format",
+      "message": "Zadługa Wiadomość"
+    },
+    "button": "Proszę o kontakt"
+  },
+  "footer": {
+    "title": "Kreatywne studio brandingowe",
+    "subtitle": "Wspieramy biznesy z Polski i Ukrainy, dostarczając kompleksowe i kreatywne rozwiązania",
+    "contact": [
       {
-        "platform": "Facebook",
+        "text": "mail@gmail.com",
+        "href": "mailto:mail@gmail.com"
+      },
+      {
+        "text": "+48 000 000 000",
+        "href": "tel:+48000000000"
+      }
+    ],
+    "sociallinks": [
+      {
+        "text": "Facebook",
         "href": "https://facebook.com"
       },
       {
-        "platform": "LinkedIn",
+        "text": "LinkedIn",
         "href": "https://linkedin.com"
       }
     ]

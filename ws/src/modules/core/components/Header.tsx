@@ -21,10 +21,11 @@ export default function Header() {
       <div className="flex flex-row justify-between items-center">
         <Image
           src={logoSVG.src}
+          priority
           width={0}
           height={0}
           className="w-1/3"
-          alt="10"
+          alt="Logo"
         ></Image>
         <Image
           src={burgerSVG.src}

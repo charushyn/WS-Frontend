@@ -47,12 +47,8 @@ export const Lead = createComponent<HTMLParagraphElement>(
   "text-xl text-muted-foreground",
   "Lead"
 );
-
-export const P = createComponent<HTMLParagraphElement>(
-  "p",
-  "leading-7 [&:not(:first-child)]:mt-6",
-  "P"
-);
+// [&:not(:first-child)]:mt-6
+export const P = createComponent<HTMLParagraphElement>("p", "leading-7", "P");
 
 export const Large = createComponent<HTMLDivElement>(
   "div",

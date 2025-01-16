@@ -7,11 +7,10 @@ import ServiceCard from "../ui/ServiceCard";
 
 export default function Services() {
   const t = useTranslations("services");
-  // <Link href={t(`${button}.href`)}>{t(`${button}.text`)}</Link>
   const messages = useMessages();
 
   return (
-    <div className="flex flex-col gap-5 min-h-svh bg-white rounded-3xl text-center p-5">
+    <div className="flex flex-col gap-5 min-h-svh bg-white rounded-3xl text-center px-5 py-10">
       <P>{t("title")}</P>
       <H4>
         {typeof messages.services === "object" &&
@@ -32,7 +31,7 @@ export default function Services() {
             }
           )}
       </H4>
-      <div className="flex flex-col gap-4 mt-10">
+      <div className="flex flex-col gap-10 mt-10">
         {typeof messages.services === "object" &&
           Array.isArray(messages.services.items) &&
           messages.services.items.map((item: ServiceCardType) => {
