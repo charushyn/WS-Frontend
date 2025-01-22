@@ -20,7 +20,7 @@ import { Input } from "@/modules/core/ui/input";
 import parsePhoneNumber from "libphonenumber-js";
 import { FeedbackSchema } from "../lib/FeedbackSchema";
 import { useTranslations } from "next-intl";
-import { H4, P } from "@/modules/core/ui/typography";
+import { H2, P } from "@/modules/core/ui/typography";
 import { Textarea } from "@/modules/core/ui/textarea";
 
 export default function ContactForm() {
@@ -43,12 +43,12 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="flex flex-col px-5 py-12" id="contact">
-      <H4 className="text-center mt-12 mb-6">{t("title")}</H4>
+    <div className="flex flex-col px-5 pb-12 t-m:px-10" id="contact">
+      <H2 className="text-center my-12">{t("title")}</H2>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-8 t-s:w-[40%]"
+          className="space-y-8 w-full t-s:w-[70%] mx-auto"
         >
           <FormField
             control={form.control}

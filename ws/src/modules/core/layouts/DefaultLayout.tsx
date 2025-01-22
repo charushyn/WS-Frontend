@@ -7,7 +7,7 @@ export default function DefaultLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div>
+    <div className="">
       <Header></Header>
       {children}
       <Footer></Footer>

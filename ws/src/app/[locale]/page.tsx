@@ -9,7 +9,7 @@ import ContactForm from "@/modules/contact/components/Contact";
 
 export default function Page() {
   return (
-    <main>
+    <main className="d-x:w-[1920px] d-s:mx-auto">
       <Greeting></Greeting>
       <Services></Services>
       <Portfolio></Portfolio>

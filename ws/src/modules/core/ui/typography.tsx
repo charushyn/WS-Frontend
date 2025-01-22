@@ -20,31 +20,31 @@ const createComponent = <T extends HTMLElement>(
 
 export const H1 = createComponent<HTMLHeadingElement>(
   "h1",
-  "scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl",
+  "scroll-m-20 text-2xl t-m:text-3xl t-x:text-4xl d-s:text-5xl font-extrabold tracking-tight",
   "H1"
 );
 
 export const H2 = createComponent<HTMLHeadingElement>(
   "h2",
-  "scroll-m-20 border-b py-2 text-3xl font-semibold tracking-tight first:mt-0",
+  "scroll-m-20 py-2 text-xl t-m:text-2xl t-x:text-3xl d-s:text-4xl font-extrabold tracking-tight first:mt-0",
   "H2"
 );
 
 export const H3 = createComponent<HTMLHeadingElement>(
   "h3",
-  "scroll-m-20 text-2xl font-semibold tracking-tight",
+  "scroll-m-20 text-lg t-m:text-xl t-x:text-2xl d-s:text-3xl font-semibold tracking-tight",
   "H3"
 );
 
 export const H4 = createComponent<HTMLHeadingElement>(
   "h4",
-  "scroll-m-20 text-xl font-semibold tracking-tight",
+  "scroll-m-20 text-base t-m:text-lg t-x:text-xl d-s:text-2xl font-semibold tracking-tight",
   "H4"
 );
 
 export const Lead = createComponent<HTMLParagraphElement>(
   "p",
-  "text-xl text-muted-foreground",
+  "text-base text-muted-foreground",
   "Lead"
 );
 // [&:not(:first-child)]:mt-6
@@ -52,13 +52,13 @@ export const P = createComponent<HTMLParagraphElement>("p", "leading-7", "P");
 
 export const Large = createComponent<HTMLDivElement>(
   "div",
-  "text-lg font-semibold",
+  "text-base t-m:text-lg t-x:text-xl d-s:text-2xl font-semibold",
   "Large"
 );
 
 export const Small = createComponent<HTMLParagraphElement>(
   "p",
-  "text-sm font-medium leading-none",
+  "text-xs font-medium leading-none",
   "Small"
 );
 

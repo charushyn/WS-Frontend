@@ -1,4 +1,7 @@
 {
+  "metadata": {
+    "description": "ICDEV.pl to kreatywne studio webowe, które specjalizuje się w tworzeniu nowoczesnych, funkcjonalnych i estetycznych stron internetowych dla firm z Polski i Ukrainy. Oferujemy szeroki zakres usług, takich jak projektowanie landing page, sklepów internetowych, systemów CRM, SEO, reklamy oraz wsparcie techniczne. Dzięki indywidualnemu podejściu do każdego projektu i wykorzystaniu nowoczesnych technologii, ICDEV.pl pomaga klientom osiągać ich cele i sukces w cyfrowym świecie."
+  },
   "header": {
     "button": {
       "text": "Zadaj pytanie",
@@ -28,7 +31,7 @@
     ]
   },
   "greeting": {
-    "h3": "Tworzymy strony, które inspirują i sprzedają",
+    "h1": "Tworzymy strony, które inspirują i sprzedają",
     "h4": "Nowoczesne strony, które sprzedają – z pełnym wsparciem i reklamą.",
     "links": [
       {
@@ -43,7 +46,7 @@
   },
   "services": {
     "title": "Nasze usługi",
-    "description": [
+    "h1": [
       { "text": "Tworzenie ", "className": "#5080AF" },
       { "text": "stron internetowych", "className": "" },
       { "text": ",", "className": "" },
@@ -70,7 +73,7 @@
   },
   "portfolio": {
     "h4": "Teczka",
-    "h3": [
+    "h1": [
       { "text": "Przykłady ", "className": "#5080AF" },
       { "text": "witryn opracowanych", "className": "" }
     ],
@@ -82,14 +85,20 @@
         "id": 0,
         "title": "Strona pamiątkowa",
         "url": "https://volynlegion.com.ua/",
-        "warnings": [],
+        "warnings": {
+          "text": "Ostrzeżenie:",
+          "items": []
+        },
         "description": "„Niebiański Legion Wołynia” to projekt badawczo-pamiątkowy upamiętniający mieszkańców Wołynia poległych w wojnie z Rosją."
       },
       {
         "images": ["https://i.ibb.co/HXQPYfy/2024-12-29-01-33-39.png"],
         "id": 1,
         "title": "Sklep internetowy dla małej firmy",
-        "warnings": [],
+        "warnings": {
+          "text": "Ostrzeżenie:",
+          "items": []
+        },
         "url": "https://vsevsim.com.ua/",
         "description": "„Wszystko dla Wszystkich” – ukraińska firma z wieloletnim doświadczeniem w handlu, z siedzibą w Łucku."
       },
@@ -120,7 +129,7 @@
   },
   "whywe": {
     "subtitle": "Powody, dla których warto współpracować",
-    "title": [
+    "h1": [
       {
         "text": "Dlaczego warto wybrać ",
         "className": ""
@@ -162,7 +171,7 @@
     ],
     "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l2xC5o5HbnBniXyXEjlOE~eD~y8CGGS23XMoyNtLVdhbnz~DeMGcLSBlYNV9iDEDZMAEBnzwzSmPkSoSRIlC6b9JhUDVFzw59BVssJ6coTdtnILmPEGgUY0egMhz9e3XEj4-9IOmCZlRFJ0MQKg3Xavoo8rapmWUdhAftS2bG5ft5Bu4R0lHyOoVukV3iSEbmy3G8GIm4l~bcMjZFXchqugqiW8A8ehd1eJ8-KMsbtzUEzZeVEfHY-l1ye9hyeSU-9AL2s-RqZA1gwNxMIRKKicC3Z5d0G1AryUu17wkAXIGPDFj0ezWiGxIrQIwuoZDKzBcPLYNJEQL6emZ-AADfQ__",
     "subtitle": "O nas",
-    "description": "Jesteśmy zespołem kreatywnych profesjonalistów, którzy łączą pasję do designu z nowoczesnymi technologiami. Oferujemy kompleksowe usługi od projektowania po wdrożenie i wsparcie techniczne."
+    "description": "Jesteśmy zespołem kreatywnych profesjonalistów, którzy łączą pasję do technologii z doświadczeniem w tworzeniu innowacyjnych rozwiązań internetowych. Naszym celem jest dostarczanie wysokiej jakości usług, które pomagają firmom wyróżnić się w cyfrowym świecie. Dzięki indywidualnemu podejściu do każdego projektu, tworzymy strony internetowe i aplikacje, które nie tylko spełniają oczekiwania naszych klientów, ale także przyczyniają się do ich sukcesu. Zawsze dążymy do perfekcji, wykorzystując najnowsze technologie i najlepsze praktyki branżowe."
   },
   "faq": {
     "subtitle": "FAQ",
@@ -227,22 +236,22 @@
     "subtitle": "Wspieramy biznesy z Polski i Ukrainy, dostarczając kompleksowe i kreatywne rozwiązania",
     "contact": [
       {
-        "text": "mail@gmail.com",
-        "href": "mailto:mail@gmail.com"
+        "text": "icdev.pl@gmail.com",
+        "href": "mailto:icdev.pl@gmail.com"
       },
       {
-        "text": "+48 000 000 000",
-        "href": "tel:+48000000000"
+        "text": "+48 792 386 774",
+        "href": "tel:+48792386774"
       }
     ],
     "sociallinks": [
       {
-        "text": "Facebook",
-        "href": "https://facebook.com"
+        "text:": "Instagram",
+        "href": "https://www.instagram.com/icdev.pl?igsh=MXdqdDE5ZnN0N2FoZw%3D%3D&utm_source=qr"
       },
       {
-        "text": "LinkedIn",
-        "href": "https://linkedin.com"
+        "text": "Telegram",
+        "href": "https://t.me/charushyn"
       }
     ]
   }

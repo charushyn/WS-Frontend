@@ -3,6 +3,9 @@ export type PortfolioCardType = {
   id: number;
   title: string;
   url: string;
-  warnings: Array<string>;
+  warnings: {
+    text: string;
+    items: Array<string>;
+  };
   description: Array<string>;
 };

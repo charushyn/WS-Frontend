@@ -23,6 +23,7 @@ export default {
         "d-s": "1200px", //800px
         "d-m": "1440px", //900px
         "d-l": "1536px", //960px
+        "d-x": "1920px", // 1080px
       },
       colors: {
         background: "hsl(var(--background))",
