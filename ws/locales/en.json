@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "description": "ICDEV.pl is a creative web studio specializing in creating modern, functional, and aesthetic websites for companies from Poland and Ukraine. We offer a wide range of services, including landing page design, online stores, CRM systems, SEO, advertising, and technical support. With an individual approach to each project and the use of modern technologies, ICDEV.pl helps clients achieve their goals and succeed in the digital world."
+    "description": "ICDEV.pl is a creative web studio specializing in creating modern, functional, and aesthetic websites for businesses from Poland and Ukraine. We offer a wide range of services, including landing page design, online stores, CRM systems, SEO, advertising, and technical support. Through a personalized approach to every project and the use of modern technologies, ICDEV.pl helps clients achieve their goals and succeed in the digital world."
   },
   "header": {
     "button": {
-      "text": "Ask a Question",
+      "text": "Ask a question",
       "href": "#contact"
     },
     "nav": [
@@ -17,7 +17,7 @@
         "href": "#portfolio"
       },
       {
-        "text": "About Us",
+        "text": "About us",
         "href": "#about"
       },
       {
@@ -35,7 +35,7 @@
     "h4": "Modern websites that sell – with full support and advertising.",
     "links": [
       {
-        "text": "Order a website",
+        "text": "Order website development",
         "href": "#contact"
       },
       {
@@ -45,10 +45,10 @@
     ]
   },
   "services": {
-    "title": "Our Services",
+    "title": "Our services",
     "h1": [
-      { "text": "Creating ", "className": "#5080AF" },
-      { "text": "websites", "className": "" },
+      { "text": "Website ", "className": "#5080AF" },
+      { "text": "development", "className": "" },
       { "text": ",", "className": "" },
       { "text": " advertising services", "className": "#5080AF" },
       { "text": " and SEO", "className": "" }
@@ -56,18 +56,18 @@
     "items": [
       {
         "icon": "web",
-        "title": "Landing Page Design",
+        "title": "Landing page development",
         "description": "We create modern and functional websites tailored to your needs."
       },
       {
         "icon": "globe",
-        "title": "Advanced Websites",
+        "title": "Advanced websites",
         "description": "Online stores, CRM systems, and other solutions for your business."
       },
       {
         "icon": "box",
-        "title": "Technical Support",
-        "description": "Ongoing assistance in maintaining and updating websites."
+        "title": "Technical support",
+        "description": "Continuous assistance in maintaining and updating websites."
       }
     ]
   },
@@ -75,7 +75,7 @@
     "h4": "Portfolio",
     "h1": [
       { "text": "Examples of ", "className": "#5080AF" },
-      { "text": "websites we’ve developed", "className": "" }
+      { "text": "developed websites", "className": "" }
     ],
     "items": [
       {
@@ -83,35 +83,35 @@
           "https://volynlegion.com.ua/_next/image?url=%2Fphotos%2FYouhymuk.png&w=1920&q=75"
         ],
         "id": 0,
-        "title": "Memorial Website",
+        "title": "Memorial website",
         "url": "https://volynlegion.com.ua/",
         "warnings": {
           "text": "Warning:",
           "items": []
         },
-        "description": "“Heavenly Legion of Volyn” is a research and memorial project commemorating the residents of Volyn who died in the war with Russia."
+        "description": "‘Volyn's Heavenly Legion’ is a research and memorial project honoring the residents of Volyn who died in the war with Russia."
       },
       {
         "images": ["https://i.ibb.co/HXQPYfy/2024-12-29-01-33-39.png"],
         "id": 1,
-        "title": "Online Store for Small Business",
+        "title": "Online store for a small business",
         "warnings": {
           "text": "Warning:",
           "items": []
         },
         "url": "https://vsevsim.com.ua/",
-        "description": "“Everything for Everyone” is a Ukrainian company with many years of trade experience based in Lutsk."
+        "description": "‘Everything for Everyone’ is a Ukrainian company with years of trading experience, based in Lutsk."
       },
       {
         "images": ["https://i.ibb.co/gWjGYYV/2024-12-29-01-43-20.png"],
         "id": 2,
-        "title": "Insurance Company Website",
+        "title": "Website for an insurance company",
         "warnings": {
           "text": "Warning:",
-          "items": ["Link unavailable, the company stopped hosting payments."]
+          "items": ["Link unavailable, the company stopped paying for hosting."]
         },
         "url": "",
-        "description": "CD Finance – a Polish company specializing in financial services, including credit brokerage."
+        "description": "CD Finance is a Polish company specializing in financial services, including credit brokerage."
       }
     ],
     "button": {
@@ -128,7 +128,7 @@
     }
   },
   "whywe": {
-    "subtitle": "Reasons to collaborate with us",
+    "subtitle": "Reasons to work with us",
     "h1": [
       {
         "text": "Why choose ",
@@ -143,17 +143,17 @@
       {
         "icon": "head-checkmark",
         "title": "Expertise",
-        "description": "We have many years of experience in website development."
+        "description": "We have years of experience in website development."
       },
       {
         "icon": "squers",
-        "title": "Custom Solutions",
-        "description": "We tailor projects to meet each client’s needs."
+        "title": "Custom solutions",
+        "description": "We tailor projects to meet clients' needs."
       },
       {
         "icon": "shield",
         "title": "Security",
-        "description": "We ensure the safety of your website and user data."
+        "description": "We ensure the security of your website and user data."
       }
     ],
     "button": {
@@ -161,11 +161,53 @@
       "href": "#about"
     }
   },
+  "about": {
+    "title": [
+      { "text": "Professionals ", "className": "#5080AF" },
+      {
+        "text": "in creating modern websites",
+        "className": ""
+      }
+    ],
+    "image-href": "https://s3-alpha-sig.figma.com/img/51cb/3ffd/6bd3dbe5be0046b23fbf2d81015b8533?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l2xC5o5HbnBniXyXEjlOE~eD~y8CGGS23XMoyNtLVdhbnz~DeMGcLSBlYNV9iDEDZMAEBnzwzSmPkSoSRIlC6b9JhUDVFzw59BVssJ6coTdtnILmPEGgUY0egMhz9e3XEj4-9IOmCZlRFJ0MQKg3Xavoo8rapmWUdhAftS2bG5ft5Bu4R0lHyOoVukV3iSEbmy3G8GIm4l~bcMjZFXchqugqiW8A8ehd1eJ8-KMsbtzUEzZeVEfHY-l1ye9hyeSU-9AL2s-RqZA1gwNxMIRKKicC3Z5d0G1AryUu17wkAXIGPDFj0ezWiGxIrQIwuoZDKzBcPLYNJEQL6emZ-AADfQ__",
+    "subtitle": "About us",
+    "description": "We are a team of creative professionals who combine a passion for technology with experience in developing innovative web solutions. Our goal is to deliver high-quality services that help businesses stand out in the digital world. With a personalized approach to every project, we create websites and applications that not only meet our clients' expectations but also contribute to their success. We strive for perfection, using the latest technologies and best industry practices."
+  },
+  "faq": {
+    "subtitle": "FAQ",
+    "title": [
+      { "text": "Frequently asked ", "className": "" },
+      { "text": "questions", "className": "#5080AF" }
+    ],
+    "subsubtitle": "You might be interested in reading",
+    "items": [
+      {
+        "question": "What is a web studio and what services does it offer?",
+        "answer": "A web studio is a company specializing in designing and creating websites tailored to individual clients' needs."
+      },
+      {
+        "question": "How to choose the right web studio for my project?",
+        "answer": "The choice depends on the studio's experience, client reviews, and portfolio."
+      },
+      {
+        "question": "What is the process of creating a website at your studio?",
+        "answer": "The process includes analysis, design, implementation, and testing."
+      },
+      {
+        "question": "How long does it take to create a website?",
+        "answer": "The timeline depends on the complexity of the project and ranges from 1 to 8 weeks."
+      },
+      {
+        "question": "What technologies do you use for website development?",
+        "answer": "We use modern technologies such as HTML, CSS, MERN (MongoDB, Express, React, Node), Next.js, and more."
+      }
+    ]
+  },
   "contact": {
-    "title": "Contact Form",
+    "title": "Contact form",
     "name": {
       "label": "Name",
-      "placeholder": "Thomas",
+      "placeholder": "Tomasz",
       "description": "",
       "required": "1"
     },
@@ -176,7 +218,7 @@
       "required": "1"
     },
     "message": {
-      "label": "Additional Message",
+      "label": "Additional message",
       "placeholder": "Write something here...",
       "description": "",
       "required": ""
@@ -184,7 +226,7 @@
     "result-ui": {
       "success": {
         "title": "Message sent!",
-        "description": "We’ll get in touch with you as soon as possible!"
+        "description": "We will get in touch as soon as possible!"
       },
       "error": {
         "title": "Error.",
@@ -194,10 +236,34 @@
     "errors": {
       "nameToShort": "The name is too short",
       "nameToLong": "The name is too long",
-      "phone": "The phone number format is incorrect",
+      "phone": "The phone number has an invalid format",
       "message": "The message is too long",
-      "regex": "Only A-Z allowed"
+      "regex": "Only A-Z"
     },
     "button": "Contact us"
+  },
+  "footer": {
+    "title": "Creative branding studio",
+    "subtitle": "We support businesses from Poland and Ukraine, providing comprehensive and creative solutions",
+    "contact": [
+      {
+        "text": "icdev.pl@gmail.com",
+        "href": "mailto:icdev.pl@gmail.com"
+      },
+      {
+        "text": "+48 792 386 774",
+        "href": "tel:+48792386774"
+      }
+    ],
+    "sociallinks": [
+      {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/icdev.pl?igsh=MXdqdDE5ZnN0N2FoZw%3D%3D&utm_source=qr"
+      },
+      {
+        "text": "Telegram",
+        "href": "https://t.me/charushyn"
+      }
+    ]
   }
 }
