@@ -1,6 +1,7 @@
 import { H2, P } from "@/modules/core/ui/typography";
 import { useMessages, useTranslations } from "next-intl";
 import Image from "next/image";
+import aboutimg from "@/../public/about-img.jpeg";
 
 export default function About() {
   const t = useTranslations("about");
@@ -36,7 +37,7 @@ export default function About() {
       <div className="t-x:col-start-1 t-x:col-end-2 t-x:row-start-1 t-x:row-end-2">
         <Image
           alt={t("subtitle")}
-          src={t("image-href")}
+          src={aboutimg.src}
           width={1920}
           height={1080}
           className=" object-cover object-center rounded-[72px] t-s:h-[40svh] t-m:h-[50svh] d-s:h-[80svh]"
