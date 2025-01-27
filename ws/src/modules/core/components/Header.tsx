@@ -30,7 +30,9 @@ export default function Header() {
   const [lang, setLang] = React.useState<Lang>();
 
   React.useEffect(() => {
-    const settingLang = async () => setLang(await getCookie());
+    const settingLang = async () => {
+      setLang(await getCookie());
+    };
 
     settingLang();
   }, []);

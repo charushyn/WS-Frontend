@@ -223,11 +223,22 @@
       "description": "",
       "required": ""
     },
+    "result-ui": {
+      "success": {
+        "title": "Wiadomość została wysłana!",
+        "description": "Skontaktujmy się w jak najszybciej!"
+      },
+      "error": {
+        "title": "Błąd.",
+        "description": "Spróbuj ponownie."
+      }
+    },
     "errors": {
       "nameToShort": "Imię jest zakrótkie",
       "nameToLong": "Imię jest zadługie",
       "phone": "Numer telefonu ma nieprawidłowy format",
-      "message": "Zadługa Wiadomość"
+      "message": "Zadługa Wiadomość",
+      "regex": "Tylko A-Z"
     },
     "button": "Proszę o kontakt"
   },
@@ -246,7 +257,7 @@
     ],
     "sociallinks": [
       {
-        "text:": "Instagram",
+        "text": "Instagram",
         "href": "https://www.instagram.com/icdev.pl?igsh=MXdqdDE5ZnN0N2FoZw%3D%3D&utm_source=qr"
       },
       {

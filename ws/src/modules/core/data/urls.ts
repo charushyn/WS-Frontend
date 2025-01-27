@@ -1,3 +1,7 @@
-const clientUrl = "http://localhost:3000";
+let clientUrl: string = "";
+
+if (typeof window !== "undefined") {
+  clientUrl = window.origin;
+}
 
 export { clientUrl };

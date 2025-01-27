@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 
 import { Button } from "@/modules/core/ui/button";
+import { FadeLoader } from "react-spinners";
 import {
   Form,
   FormControl,
@@ -16,15 +17,22 @@ import {
   FormMessage,
 } from "@/modules/core/ui/form";
 import { Input } from "@/modules/core/ui/input";
-
-import parsePhoneNumber from "libphonenumber-js";
 import { FeedbackSchema } from "../lib/FeedbackSchema";
 import { useTranslations } from "next-intl";
 import { H2, P } from "@/modules/core/ui/typography";
 import { Textarea } from "@/modules/core/ui/textarea";
+import { useSendMeesageMutation } from "@/services/rtk/backend";
+
+import { useToast } from "@/modules/core/hooks/use-toast";
 
 export default function ContactForm() {
   const t = useTranslations("contact");
+
+  const t_result_ui = useTranslations("contact.result-ui");
+  const { toast } = useToast();
+
+  const [sendMessage, { isLoading, isError, isSuccess }] =
+    useSendMeesageMutation();
 
   const formSchema = FeedbackSchema(t);
 
@@ -38,8 +46,24 @@ export default function ContactForm() {
   });
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    const phoneNumber = parsePhoneNumber(values.phone);
-    values.phone = phoneNumber ? phoneNumber.number.toString() : "";
+    await sendMessage({
+      name: values.name,
+      phone: values.phone,
+      message: values.message,
+    });
+    if (isSuccess) {
+      form.reset();
+      toast({
+        title: t_result_ui("success.title"),
+        description: t_result_ui("success.description"),
+      });
+    }
+    if (isError) {
+      toast({
+        title: t_result_ui("error.title"),
+        description: t_result_ui("error.description"),
+      });
+    }
   }
 
   return (
@@ -48,8 +72,14 @@ export default function ContactForm() {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-8 w-full t-s:w-[70%] mx-auto"
+          className="space-y-8 w-full t-s:w-[70%] mx-auto relative"
         >
+          {/* loading bar */}
+          {isLoading && (
+            <div className="absolute z-[1] w-full h-full bg-opacity-50 rounded-[1.5rem] bg-white flex justify-center items-center">
+              <FadeLoader />
+            </div>
+          )}
           <FormField
             control={form.control}
             name="name"

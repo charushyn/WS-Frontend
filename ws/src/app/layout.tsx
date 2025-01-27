@@ -9,6 +9,7 @@ const nunito = Nunito({
 import { cookies } from "next/headers";
 
 import { getTranslations } from "next-intl/server";
+import { Toaster } from "@/modules/core/ui/toaster";
 
 export async function generateMetadata() {
   const cookieStore = await cookies();
@@ -33,7 +34,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.className} antialiased`}>{children}</body>
+      <body className={`${nunito.className} antialiased`}>
+        {children}
+        <Toaster></Toaster>
+      </body>
     </html>
   );
 }

@@ -5,6 +5,10 @@ export const FeedbackSchema = (t: (arg: string) => string) =>
   z.object({
     name: z
       .string()
+      .regex(
+        new RegExp("^[a-zA-Zа-яА-ЯёЁіІїЇєЄўЎćĆńŃśŚźŹżŻłŁąĄęĘóÓ]+$"),
+        t("errors.regex")
+      )
       .min(2, { message: t("errors.nameToShort") })
       .max(20, { message: t("errors.nameToLong") }),
     phone: z.string().refine((value) => isValidPhoneNumber(value), {

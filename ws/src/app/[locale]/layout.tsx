@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import ReduxProvider from "@/modules/core/providers/ReduxProvider";
 
 export default async function Layout({
   params,
@@ -24,7 +25,9 @@ export default async function Layout({
 
   return (
     <NextIntlClientProvider messages={messages}>
-      <DefaultLayout>{children}</DefaultLayout>
+      <ReduxProvider>
+        <DefaultLayout>{children}</DefaultLayout>
+      </ReduxProvider>
     </NextIntlClientProvider>
   );
 }

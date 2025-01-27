@@ -25,7 +25,7 @@ export default function Footer() {
             )}
         </div>
       </div>
-      <div className="flex flex-col gap-2 t-s:flex-row t-m:gap-6" key={"1"}>
+      <div className="flex flex-col gap-2 t-s:flex-row t-m:gap-6">
         {typeof messages.footer === "object" &&
           Array.isArray(messages.footer.sociallinks) &&
           messages.footer.sociallinks.map(
